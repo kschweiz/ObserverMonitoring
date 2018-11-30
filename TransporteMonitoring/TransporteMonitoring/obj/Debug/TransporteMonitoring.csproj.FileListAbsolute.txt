@@ -1,0 +1,7 @@
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\bin\Debug\TransporteMonitoring.exe.config
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\bin\Debug\TransporteMonitoring.exe
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\bin\Debug\TransporteMonitoring.pdb
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\obj\Debug\TransporteMonitoring.csprojResolveAssemblyReference.cache
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\obj\Debug\TransporteMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\obj\Debug\TransporteMonitoring.exe
+C:\Users\scke\source\repos\TransporteMonitoring\TransporteMonitoring\obj\Debug\TransporteMonitoring.pdb
