@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Azure.NotificationHubs;
+
 
 namespace TransporteMonitoring
 {
@@ -24,5 +26,14 @@ namespace TransporteMonitoring
                 System.Threading.Thread.Sleep(10000);
             }
         }
+
+        static async void test()
+        {
+            NotificationHubClient hub = NotificationHubClient
+        .CreateClientFromConnectionString("<connection string with full access>", "<hub name>");
+            var toast = @"<toast><visual><binding template=""ToastText01""><text id=""1"">Hello from a .NET App!</text></binding></visual></toast>";
+            await hub.SendWindowsNativeNotificationAsync(toast);
+        }
     }
+
 }

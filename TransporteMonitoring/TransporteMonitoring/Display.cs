@@ -42,7 +42,12 @@ namespace TransporteMonitoring
                         Console.Write(step["date"].ToString() + "\t");
 
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.Write("Ersteller:\t");
+                        Console.Write("Account: ");
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                        Console.Write(step["username"].ToString() + "\t");
+
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.Write("Ersteller: ");
                         Console.ForegroundColor = ConsoleColor.Gray;
                         Console.Write(step["name"].ToString() + "\n");
                     }
